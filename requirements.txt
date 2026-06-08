@@ -1,6 +1,6 @@
 yfinance==0.2.65
-pandas==2.1.4
-numpy==1.26.4
+pandas==2.3.0
+numpy==2.3.0
 plotly==6.1.2
 kaleido==0.2.1
 streamlit==1.45.1
