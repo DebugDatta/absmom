@@ -34,7 +34,7 @@ def fetch_data(ticker, start):
     df = yf.download(ticker, start=start, progress=False)
     if df.empty: return pd.Series()
     close = df['Close'][ticker] if isinstance(df.columns, pd.MultiIndex) and ticker in df['Close'].columns else df['Close']
-    return close.resample('M').last()
+    return close.resample('ME').last()
 
 with st.spinner("Fetching market data..."):
     risk_on_prices = fetch_data(risk_on_ticker, start_date)

@@ -25,7 +25,7 @@ def fetch_data(ticker, start):
     df = yf.download(ticker, start=start, progress=False)
     if df.empty: return pd.Series(dtype='float64')
     close = df['Close'][ticker] if isinstance(df.columns, pd.MultiIndex) else df['Close']
-    return close.resample('M').last()
+    return close.resample('ME').last()
 
 def run_backtest(lookback, risk_on, risk_off, cost):
     df = pd.DataFrame({'RiskOn': risk_on, 'RiskOff': risk_off}).dropna()
