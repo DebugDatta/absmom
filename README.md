@@ -170,4 +170,4 @@ https://github.com/DebugDatta/absmom
 
 ## Live App
 
-https://signalsync.streamlit.app/
+https://absmom.streamlit.app/
