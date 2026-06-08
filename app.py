@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 import plotly.express as px
 
 st.set_page_config(page_title="Indian Absolute Momentum", layout="wide")
-st.title("📈 Advanced Indian Absolute Momentum")
+st.title("Indian Absolute Momentum")
 
 st.sidebar.header("Strategy Parameters")
 
