@@ -1,0 +1,3 @@
+Portfolio,CAGR,Sharpe,Sortino,Volatility,Max DD,Win Rate
+Traditional 60/40,0.0773,0.16,0.26,0.109,-0.1807,0.56
+Momentum 60/40,0.0333,-0.31,-0.38,0.0851,-0.1957,0.43

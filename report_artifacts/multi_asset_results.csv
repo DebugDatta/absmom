@@ -1,0 +1,5 @@
+Asset,BnH CAGR,Strat CAGR,BnH Volatility,Strat Volatility,BnH Sharpe,Strat Sharpe,BnH Sortino,Strat Sortino,BnH Max DD,Strat Max DD,BnH Win Rate,Strat Win Rate,BnH Alpha,Strat Alpha,BnH Beta,Strat Beta
+Nifty 50,0.1247,0.0526,0.1816,0.1419,0.36,-0.05,0.57,-0.06,-0.2934,-0.3133,0.56,0.43,0,0,1,1
+Bank Nifty,0.1457,0.047,0.2725,0.1865,0.31,-0.07,0.5,-0.08,-0.4048,-0.4605,0.57,0.42,0,0,1,1
+GoldBees,0.13,0.1008,0.1488,0.1328,0.47,0.31,0.94,0.52,-0.2442,-0.3514,0.6,0.47,0,0,1,1
+GiltBees,0.0255,0.0277,0.0438,0.0333,-0.79,-0.97,-1.1,-1.4,-0.1713,-0.0458,0.58,0.46,0,0,1,1
